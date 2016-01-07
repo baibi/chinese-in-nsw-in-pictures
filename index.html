@@ -47,27 +47,37 @@
     <div class="container">
 
       <!-- EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS -->
-      <h1 ng-hide="listHide" class="ng-hide" id="exhibition-name" class="page-header">Forecasters</h1>
-      <h2 ng-hide="listHide" class="ng-hide" id="exhibition-tagline">An assortment of weather prophets</h2>
+    <h1 ng-hide="listHide" class="ng-hide" id="exhibition-name" class="page-header">The Chinese in New South Wales</h1>
+      <h2 ng-hide="listHide" class="ng-hide" id="exhibition-tagline">A history in pictures to 1940</h2>
       <div ng-hide="listHide" class="ng-hide" id="exhibition-description">
-        <p>This site displays content from Trove. It is a demonstration of how resources collected using <a href="http://help.nla.gov.au/trove/using-trove/creating-contributing/lists">Trove lists</a> can be reused through the <a href="http://help.nla.gov.au/trove/building-with-trove">Trove API</a> to create new interfaces and applications.</p>
+        <p>This exhibition features a selection of historical pictures of the New South Wales Chinese community from the 1870s to the 1930s. There are photographs, illustrated newspaper articles and a few objects.</p> 
+        <p>The pictures are taken from collections available through <a href="http://trove.nla.gov.au">Trove</a>.</p>
       </div>
       <div ng-hide="listHide" class="ng-hide" id="exhibition-credit">
-        <p><small>This demonstration was created by <a href="http://discontents.com.au/about-me">Tim Sherratt</a> (<a href="http://twitter.com/wragge">@wragge</a>) to show how easy it is to create your own exhibition.</small></p>
+        <p><small>This exhibition was created by <a href="http://katebagnall.com">Kate Bagnall</a> (<a href="http://twitter.com/baibi">@baibi</a>).</small></p>
       </div>
       <ul ng-hide="listHide" class="ng-hide" id="lists">
-        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
-        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83777">Clement Wragge</a></li>
-        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83774">Inigo Jones</a></li>
+        <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83869">Families</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83868">Women</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83873">Men</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83871">Children</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83875">Community</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83867">Homes and houses</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83870">Work</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83866">Shops and businesses</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83947">Religion and festivals</a></li>
+        
       </ul>
       <script>
         // ADD YOUR TROVE API KEY
-        var troveAPIKey = "";
+        var troveAPIKey = "p9r55qu2fkt59hid";
         var config = {};
-        config.listSnippet = 50;
+        config.listSnippet = 20;
         config.directLinks = true;
         config.showGrid = false;
       </script>
+      
       <!-- END OF YOUR DETAILS -->
 
       <div class="view-container">
